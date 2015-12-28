@@ -606,7 +606,7 @@ rm(Subject_table,X_means_std,Activity_table,body_acc_x,body_acc_y,body_acc_z,bod
 
 ## write TidyTable to file
 write.table(myTidyTable, 
-            file = "Dataset_Samsung_Tidy",
+            file = "Dataset_Samsung_Tidy.txt",
             quote = FALSE, row.names = FALSE, col.names = TRUE)
 
 
